@@ -1,0 +1,33 @@
+ .flex {
+     -webkit-box-flex: 1;
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto
+ }
+
+ .pagination,
+ .jsgrid .jsgrid-pager {
+     display: flex;
+     padding-left: 0;
+     list-style: none;
+     border-radius: 0.25rem
+ }
+
+ .page-link {
+     color: black
+ }
+
+ .pagination.pagination-flat .page-item {
+     margin: 0 .25rem
+ }
+ .pagination.pagination-flat .page-item .page-link{
+     padding: 5px 10px 5px 10px;
+     border: 1px solid #00c689;
+ }
+
+ .pagination.pagination-flat .page-iteme .page-link .active{
+     background-color: #00c689;
+     border-color: #00c689
+ }
+ .tagline{
+     padding: 2px; background-color: #7FFFD4; border-radius: 2px; color: #000; font-size: 12px;
+ }
